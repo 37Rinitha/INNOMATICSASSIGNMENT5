@@ -1,0 +1,29 @@
+/* CSS for background image */
+body {
+    background-image: url('logo.png'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the background image covers the whole page */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Fixes the image in place while scrolling */
+    color: white; /* Makes text readable on dark backgrounds */
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken background of the card */
+    color: white; /* Set text color for readability */
+  }
+  
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for navbar */
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 4rem 2rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
